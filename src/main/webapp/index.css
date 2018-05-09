@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Berlin Sans FB";
+    src: url('fonts/berlin-sans-fb.ttf') format('truetype');
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+    font-family: "Berlin Sans FB";
+    font-size: 12pt !important;
+    color: #000;
+    text-align: center;
+}
+::selection { 
+    background: lightblue;
+}
+::-moz-selection { 	
+    background: lightblue;
+}
+.content {
+    margin: 0px auto;
+    padding: 20px;
+    width: 600px;
+    background: #FFF;
+    text-align: center;
+    line-height: 1.3em;
+    box-shadow: 0px 0px 30px 1px #333;
+}
+/* ********** SUBMIT MESSAGE PAGE ********** */
+.new-tweet {
+    margin: 0px auto;
+    padding: 0px;
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+.content .new-tweet input[type=text] {
+    margin-bottom: 5px;
+    width: 100%;
+}
+.content .new-tweet textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+}
+.content .new-tweet .error_message {
+    font-size: 0.85em;
+    color: red;
+}
+/* ********** LIST MESSAGE PAGE ********** */
+.content .post {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.content .post .info {
+    float: left;
+    width: 20%;
+}
+.content .post .message {
+    margin-left: 25%;
+    padding: 5px;
+    text-align: justify;
+    border: 1px solid grey;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.content .post .message .arrow {
+    float: left;
+    margin-top: 3px;
+    margin-left: -19px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 14px 7px 0;
+    border-color: transparent grey transparent transparent;
+}
+.content .post .message .arrow_inner {
+    margin-top: -6px;
+    margin-left: 2px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 12px 6px 0;
+    border-color: transparent white transparent transparent;
+}
